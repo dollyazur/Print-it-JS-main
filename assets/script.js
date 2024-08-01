@@ -86,7 +86,6 @@ arrowLeft.addEventListener("click", function () {
   //je change l'image en récupérant la valeur de la ligne "image" de mon tableau et en modifiant le src de ma bannerImage
   bannerImage.setAttribute("src", cheminImage + slides[position]["image"]);
   console.log(position);
-
   bannerImage.setAttribute("alt", slides[position]["alt"]);
   //je change le texte avec tagLine.innerHTML = position
   tagLine.innerHTML = slides[position]["tagLine"];
