@@ -87,6 +87,8 @@ arrowLeft.addEventListener("click", function () {
   bannerImage.setAttribute("src", cheminImage + slides[position]["image"]);
   console.log(position);
 
+  bannerImage.setAttribute("alt", cheminImage + slides[position]["alt"]);
+
   //je change le texte avec tagLine.innerHTML = position
   tagLine.innerHTML = slides[position]["tagLine"];
   console.log(tagLine);
